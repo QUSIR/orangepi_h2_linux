@@ -9,6 +9,7 @@ if [ "$(id -u)" != "0" ]; then
    exit 0
 fi
 
+
 cp extract.sh orange/lib/modules/
 cd orange/lib/modules/
 . extract.sh
@@ -147,7 +148,7 @@ fi
 # ========================
 echo ""
 
-repo=http://mirrors.ustc.edu.cn/ubuntu-ports
+
 
 echo $distro $odir $repo  "debug 23"
 
